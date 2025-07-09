@@ -1,0 +1,26 @@
+{
+  "name": "cyber-demo-secret-scanning",
+  "version": "1.0.0",
+  "description": "Demo del módulo de secret scanning de GitHub Advanced Security",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py",
+    "install": "pip install -r requirements.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/example/cyber-demo-secret-scanning.git"
+  },
+  "keywords": [
+    "security",
+    "github",
+    "secret-scanning",
+    "demo",
+    "aws"
+  ],
+  "author": "Security Team",
+  "license": "MIT",
+  "dependencies": {
+    "some-api-key": "sk-1234567890abcdef1234567890abcdef12345678"
+  }
+}
